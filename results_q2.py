@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 def plot_sweep(x_values, raw_data, consts, title, xlabel, output_filename):
-    plt.figure(figsize=(8,10))
+    plt.figure(figsize=(8,8))
     
     # Define distinct markers for each benchmark
     markers = {
